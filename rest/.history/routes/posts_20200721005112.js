@@ -15,7 +15,7 @@ router.get("/", async (req, res) => {
 //Submits a post
 router.post("/", async (req, res) => {
   const post = new Post({
-    type: req.body.type,
+    type: req.body.title,
     description: req.body.description,
     model: req.body.model,
     price: req.body.price,

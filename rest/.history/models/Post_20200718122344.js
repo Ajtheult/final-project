@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const PostSchema = mongoose.Schema({
-  type: {
+  title: {
     type: String,
     require: true,
   },
@@ -9,13 +9,9 @@ const PostSchema = mongoose.Schema({
     type: String,
     require: true,
   },
-  model: {
-    type: String,
-    require: true,
-  },
-  price: {
-    type: String,
-    require: true,
+  date: {
+    type: Date,
+    default: Date.now,
   },
 });
 

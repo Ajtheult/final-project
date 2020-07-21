@@ -35,13 +35,12 @@ const NewSignUp = () => {
               <div className="input-field col s12 gender">
                 <input id="gender" type="text" className="validate" />
 
-                <label htmlFor="gender">Gender</label>
+                <label htmlFor="gender">Select your gender</label>
               </div>
-              <div className="input-field col s12 gender">
-                <input id="birthday" type="text" className="validate" />
-
-                <label htmlFor="birthday">Birthday</label>
-              </div>
+              <label htmlFor="birthday" className="left">
+                Birthday
+              </label>
+              <input id="birthday" type="text" className="datepicker" />
               <div className="input-field col s12">
                 <input id="email" type="email" className="validate" />
                 <label htmlFor="email">Email</label>

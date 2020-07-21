@@ -60,11 +60,11 @@ export class Navbar extends Component {
             <li>Login</li>
           </Link>
           <Link to="/new-sign-up">
-            <li>Sign up</li>
+            <li>-Sign up</li>
           </Link>
 
           <Link to="/cart">
-            <li>Cart</li>
+            <li>-Go to Cart</li>
           </Link>
           <li>
             <div className="divider"></div>

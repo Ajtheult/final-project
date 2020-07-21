@@ -1,12 +1,12 @@
 import React from "react";
 import "../../../App.css";
-import background5 from "../imagesofinstruments/background5.jpg";
+import background4 from "../imagesofinstruments/background4.jpg";
 
 const Login = () => {
   return (
     <div>
       <div className="bg-color">
-        <img src={background5} className="bg" alt="bg" />
+        <img src={background4} className="bg" alt="bg" />
       </div>
       <div className="my_login-box">
         <h1>Login</h1>
@@ -17,6 +17,12 @@ const Login = () => {
         </div>
 
         <input className="my_btn" type="button" name="" value="Sign in" />
+        <p className="sign">
+          <a href="/new-sign-up">-Sign up</a>
+        </p>
+        <p className="sign">
+          <a href="/cart">-Go to Cart</a>
+        </p>
       </div>
     </div>
   );

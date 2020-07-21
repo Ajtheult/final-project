@@ -178,10 +178,8 @@ body {
 .instrument_sections {
   color: black;
   font-family: "Qwigley", cursive;
-  font-size: 80px;
+  font-size: 130px;
   margin-top: -5px;
-  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
-    1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 .about {
@@ -206,7 +204,7 @@ body {
 
 .about_us_move {
   margin-left: 50%;
-  margin-top: 19%;
+  margin-top: 30%;
   position: absolute;
   padding: 20px;
   transform: translate(-50%, -50%);

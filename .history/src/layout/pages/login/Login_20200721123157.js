@@ -1,6 +1,7 @@
 import React from "react";
 import "../../../App.css";
 import background5 from "../imagesofinstruments/background5.jpg";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -17,6 +18,13 @@ const Login = () => {
         </div>
 
         <input className="my_btn" type="button" name="" value="Sign in" />
+        <Link to="/new-sign-up">
+          <p className="sign">-Sign up</p>
+        </Link>
+
+        <Link to="/cart">
+          <p className="sign">-Go to Cart</p>
+        </Link>
       </div>
     </div>
   );

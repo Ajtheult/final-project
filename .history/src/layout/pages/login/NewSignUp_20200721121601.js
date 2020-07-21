@@ -34,8 +34,7 @@ const NewSignUp = () => {
             <div className="row move_this_row">
               <div className="input-field col s12 gender">
                 <input id="gender" type="text" className="validate" />
-
-                <label htmlFor="gender">Gender</label>
+Gender</label>
               </div>
               <div className="input-field col s12 gender">
                 <input id="birthday" type="text" className="validate" />

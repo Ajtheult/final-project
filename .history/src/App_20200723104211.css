@@ -238,12 +238,6 @@ body {
 }
 
 .move_payment_up {
-  margin-top: 100px;
-}
-
-.buttons_as_footer {
-  position: absolute;
-  bottom: 0;
-  width: 65%;
-  height: 130px;
+  line-height: 10px;
+  margin-right: 90px;
 }

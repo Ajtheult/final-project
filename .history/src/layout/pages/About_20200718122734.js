@@ -1,12 +1,12 @@
 import React from "react";
-import background1 from "./imagesofinstruments/background1.jpg";
+import bottom from "./imagesofinstruments/bottom.jpg";
 
 import { Parallax } from "react-parallax";
 
 const About = () => {
   return (
     <div className="colour_of_about_text">
-      <Parallax bgImage={background1} strength={1000}>
+      <Parallax bgImage={bottom} strength={1000}>
         <div style={{ height: 660 }}>
           <div className="about about_us_move">About us</div>
         </div>

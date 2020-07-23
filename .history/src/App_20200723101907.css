@@ -68,8 +68,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 p {
   color: white;
 }
 
@@ -235,15 +234,4 @@ body {
   color: black;
   text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
     1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-}
-
-.move_payment_up {
-  margin-top: 100px;
-}
-
-.buttons_as_footer {
-  position: absolute;
-  bottom: 0;
-  width: 65%;
-  height: 130px;
 }

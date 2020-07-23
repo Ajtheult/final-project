@@ -1,12 +1,12 @@
 import React from "react";
 import "../../App.css";
 import { Link } from "react-router-dom";
-import background6 from "./imagesofinstruments/background6.jpg";
+import background1 from "./imagesofinstruments/background.jpg";
 const Cart = () => {
   return (
     <div>
       <div className="bg-color">
-        <img src={background6} className="bg" alt="bg" />
+        <img src={background1} className="bg" alt="bg" />
       </div>
       <div class="row">
         <div class="col s8">

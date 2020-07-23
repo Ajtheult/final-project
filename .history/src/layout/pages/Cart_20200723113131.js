@@ -1,38 +1,29 @@
 import React from "react";
 import "../../App.css";
 import { Link } from "react-router-dom";
-import background6 from "./imagesofinstruments/background6.jpg";
+
 const Cart = () => {
   return (
     <div>
-      <div className="bg-color">
-        <img src={background6} className="bg" alt="bg" />
-      </div>
       <div class="row">
         <div class="col s8">
           <h4>Shopping Cart</h4>
           <div className="container buttons_as_footer">
             <h6>Continue Shopping</h6>
-            <Link to="/keys">
-              <button class="waves-effect waves-light btn-large red">
+            <Link>
+              <button class="waves-effect waves-light btn-large red" href="#h">
                 keys
               </button>{" "}
             </Link>
-            <Link to="/string">
-              <button class="waves-effect waves-light btn-large red">
-                String
-              </button>{" "}
-            </Link>
-            <Link to="/woodwind">
-              <button class="waves-effect waves-light btn-large red">
-                Woodwind
-              </button>{" "}
-            </Link>
-            <Link to="/percussion">
-              <button class="waves-effect waves-light btn-large red">
-                Percussion
-              </button>{" "}
-            </Link>
+            <button class="waves-effect waves-light btn-large red" href="#h">
+              string
+            </button>{" "}
+            <button class="waves-effect waves-light btn-large red " href="#h">
+              Woodwind
+            </button>{" "}
+            <button class="waves-effect waves-light btn-large red" href="#h">
+              Percussion
+            </button>
           </div>
         </div>
 

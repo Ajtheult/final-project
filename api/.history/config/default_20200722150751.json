@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://test123:test123@rest-api.inx3d.mongodb.net/test123?retryWrites=true&w=majority",
-  "jwtSecret": "secret"
-}

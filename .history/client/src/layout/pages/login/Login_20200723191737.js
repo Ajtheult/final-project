@@ -24,7 +24,7 @@ const Login = () => {
               className="validate"
               required
             />
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password">Passwor</label>
           </div>
         </div>
 

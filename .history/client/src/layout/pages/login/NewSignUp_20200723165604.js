@@ -23,42 +23,27 @@ const NewSignUp = () => {
           <form className="col s12">
             <div className="row">
               <div className="input-field col s12">
-                <input
-                  id="fullname"
-                  type="text"
-                  className="validate"
-                  required
-                />
+                <input id="fullname" type="text" className="validate" />
                 <label htmlFor="fullname">FullName</label>
               </div>
             </div>
             <div className="row move_this_row">
               <div className="input-field col s12 gender">
-                <input id="gender" type="text" className="validate" required />
+                <input id="gender" type="text" className="validate" />
 
                 <label htmlFor="gender">Gender</label>
               </div>
               <div className="input-field col s12 gender">
-                <input
-                  id="birthday"
-                  type="text"
-                  className="validate"
-                  required
-                />
+                <input id="birthday" type="text" className="validate" />
 
                 <label htmlFor="birthday">Birthday</label>
               </div>
               <div className="input-field col s12">
-                <input id="email" type="email" className="validate" required />
+                <input id="email" type="email" className="validate" />
                 <label htmlFor="email">Email</label>
               </div>
               <div className="input-field col s12">
-                <input
-                  id="password"
-                  type="password"
-                  className="validate"
-                  required
-                />
+                <input id="password" type="password" className="validate " />
                 <label htmlFor="password">Password</label>
               </div>
               <button

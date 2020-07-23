@@ -15,8 +15,6 @@ const Login = () => {
             <input id="fullname" type="text" className="validate" required />
             <label htmlFor="fullname">FullName</label>
           </div>
-          <br />
-          <br />
           <div className="input-field col s12">
             <input
               id="password"
@@ -28,14 +26,7 @@ const Login = () => {
           </div>
         </div>
 
-        <button
-          className="btn waves-effect waves-light black"
-          type="submit"
-          name="action"
-        >
-          Login
-          <i className="material-icons right">send</i>
-        </button>
+        <input className="my_btn" type="submit" name="action" value="Sign in" />
       </div>
     </div>
   );

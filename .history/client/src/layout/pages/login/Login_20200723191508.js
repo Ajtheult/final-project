@@ -33,7 +33,7 @@ const Login = () => {
           type="submit"
           name="action"
         >
-          Login
+          Submit
           <i className="material-icons right">send</i>
         </button>
       </div>

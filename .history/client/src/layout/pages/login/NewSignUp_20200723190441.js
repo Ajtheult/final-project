@@ -34,7 +34,7 @@ const NewSignUp = () => {
             </div>
             <div className="row move_this_row">
               <div className="input-field col s12 gender">
-                <input id="gender" type="text" className="validate" required />
+                <input id="gender" type="text" className="validate" />
 
                 <label htmlFor="gender">Gender</label>
               </div>
@@ -53,12 +53,7 @@ const NewSignUp = () => {
                 <label htmlFor="email">Email</label>
               </div>
               <div className="input-field col s12">
-                <input
-                  id="password"
-                  type="password"
-                  className="validate"
-                  required
-                />
+                <input id="password" type="password" className="validate " />
                 <label htmlFor="password">Password</label>
               </div>
               <button

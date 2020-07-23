@@ -22,7 +22,11 @@ const Percussion = () => {
           <div className="col s12 m12 l4" style={{ padding: "60px 5px" }}>
             <div className="card left cart-btn  hoverable move_my_products">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={cymbals_image} alt="img" />
+                <img
+                  className="activator size_of_image"
+                  src={cymbals_image}
+                  alt="img"
+                />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
@@ -81,7 +85,11 @@ const Percussion = () => {
           <div className="col s12 m12 l4" style={{ padding: "60px 5px" }}>
             <div className="card  hoverable move_my_products">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={timpani_image} alt="img" />
+                <img
+                  className="activator size_of_image"
+                  src={timpani_image}
+                  alt="img"
+                />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
@@ -139,7 +147,11 @@ const Percussion = () => {
           <div className="col s12 m12 l4" style={{ padding: "60px 5px" }}>
             <div className="card  hoverable move_my_products">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={triangle_image} alt="img" />
+                <img
+                  className="activator size_of_image"
+                  src={triangle_image}
+                  alt="img"
+                />
               </div>
 
               <div className="card-content">

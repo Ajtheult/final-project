@@ -63,16 +63,6 @@ div.admin-bg {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: white;
-}
-
 .myback {
   height: 220px;
   width: 300px;
@@ -206,7 +196,11 @@ body {
 }
 
 .move_my_products {
-  margin-top: -70px;
+  margin-top: -80px;
+}
+
+.size_of_image {
+  height: 380px;
 }
 
 .about_us_move {
@@ -246,4 +240,9 @@ body {
   bottom: 0;
   width: 65%;
   height: 130px;
+}
+
+.cart_words_white {
+  color: white;
+  font-size: 25px;
 }

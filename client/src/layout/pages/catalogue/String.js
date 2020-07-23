@@ -26,7 +26,11 @@ const String = () => {
           <div className="col s12 m12 l4" style={{ padding: "60px 5px" }}>
             <div className="card left cart-btn hoverable move_my_products">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={violin_image} alt="img" />
+                <img
+                  className="activator  size_of_image"
+                  src={violin_image}
+                  alt="img"
+                />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
@@ -85,7 +89,11 @@ const String = () => {
           <div className="col s12 m12 l4" style={{ padding: "60px 5px" }}>
             <div className="card hoverable move_my_products">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={doublebass_image} alt="img" />
+                <img
+                  className="activator size_of_image"
+                  src={doublebass_image}
+                  alt="img"
+                />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
@@ -146,7 +154,11 @@ const String = () => {
           <div className="col s12 m12 l4" style={{ padding: "60px 5px" }}>
             <div className="card hoverable move_my_products">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={cello_image} alt="img" />
+                <img
+                  className="activator size_of_image"
+                  src={cello_image}
+                  alt="img"
+                />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">

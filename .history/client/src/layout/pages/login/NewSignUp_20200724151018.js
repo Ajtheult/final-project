@@ -1,17 +1,6 @@
 import React from "react";
-import M from "materialize-css";
 import background4 from "../imagesofinstruments/background4.jpg";
-const NewSignUp = () => {
-  document.addEventListener("DOMContentLoaded", function () {
-    var elems = document.querySelectorAll(".datepicker");
-    //eslint-disable-next-line
-    var instances = M.Datepicker.init(elems, {});
-  });
-  document.addEventListener("DOMContentLoaded", function () {
-    var elems = document.querySelectorAll("select");
-    //eslint-disable-next-line
-    var instances = M.FormSelect.init(elems, {});
-  });
+const Register = () => {
   return (
     <div>
       <div className="bg-color">
@@ -77,4 +66,4 @@ const NewSignUp = () => {
   );
 };
 
-export default NewSignUp;
+export default Register;

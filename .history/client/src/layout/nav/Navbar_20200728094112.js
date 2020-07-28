@@ -54,10 +54,9 @@ export class Navbar extends Component {
           </li>
 
           <li>
-            <h4 className="sidenav_title_text">User Management</h4>
+            <h4 className="sidenav_title_text">User</h4>
             <h6 className="sidenav_title_text_2">
-              You cannot navigate to the Login and Register pages if you are
-              already logged in...
+              You cannot go to these pages if you are already logged in...
             </h6>
 
             <Link className="waves-effect waves-red sidenav_text" to="/login">
@@ -68,9 +67,6 @@ export class Navbar extends Component {
               to="/register"
             >
               <h6 className="sidenav_text">Register user</h6>
-            </Link>
-            <Link className="waves-effect waves-red sidenav_text" to="/logout">
-              <h6 className="sidenav_text">Logout</h6>
             </Link>
           </li>
 

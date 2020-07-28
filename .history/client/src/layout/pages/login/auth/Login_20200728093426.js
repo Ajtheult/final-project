@@ -13,6 +13,7 @@ const Login = (props) => {
   useEffect(() => {
     if (isAuthenticated) {
       props.history.push("/catalogue");
+      // Ask for help with this
     }
 
     if (error === "Invalid Credentials") {

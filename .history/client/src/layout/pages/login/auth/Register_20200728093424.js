@@ -13,6 +13,7 @@ const Register = (props) => {
   useEffect(() => {
     if (isAuthenticated) {
       props.history.push("/catalogue");
+      // Ask for help with this
     }
 
     if (error === "User already exists") {

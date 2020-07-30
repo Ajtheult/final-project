@@ -144,7 +144,6 @@ export default function Products({ addToCart }) {
 
   return (
     <>
-      <br />
       <div
         className="row"
         style={{

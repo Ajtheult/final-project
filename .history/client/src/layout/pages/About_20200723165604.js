@@ -8,7 +8,7 @@ const About = () => {
     <div className="colour_of_about_text">
       <Parallax bgImage={background1} strength={1000}>
         <div style={{ height: 660 }}>
-          <div className="about">About us</div>
+          <div className="about about_us_move">About us</div>
         </div>
       </Parallax>
       {/* Information on About page-Start */}

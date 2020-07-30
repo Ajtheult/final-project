@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
+import AuthContext from "../../context/auth/authContext";
 import background from "../nav/background.jpg";
 
 const Home = () => {

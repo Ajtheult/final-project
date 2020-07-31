@@ -8,7 +8,10 @@ connectDB();
 //Init Middleware
 app.use(express.json({ extended: false }));
 
-app.get("/", (req, res) => res.json({ msg: "Welcome to the LL API..." }));
+app.use(express.static(path.join(__dirname, 'client/build')));
+app.get('/', (req, res) => {
+    res.sendFile(path.join(`${__dirname/client/build/indexedDB.html}`));
+});
 
 //Define Routes
 app.use("/api/users", require("./routes/users"));

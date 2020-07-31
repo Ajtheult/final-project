@@ -1,17 +1,19 @@
 {
   "name": "rest-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "rest-api",
   "main": "server.js",
+  "homepage": "./",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Asaph",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",
